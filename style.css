@@ -1,0 +1,397 @@
+
+#parent {
+    background-image: url('./images/drew-coffman-1872.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+img {
+    width: 170px;
+    margin-left: 70px;
+    margin-top: 20px;
+  
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: 20px;
+    color: white;
+    margin-right: 130px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+
+.list li {
+    margin: 0 15px;
+}
+
+.list li:hover {
+    color: yellowgreen;
+}
+
+.mainblog {
+    cursor: pointer;
+}
+
+
+#blog a {
+    background-color: beige;
+    
+    width: 200px;
+    padding: 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.654);
+    position: relative;
+    left: 1160px;
+    bottom: -30px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    display: block;
+    
+}
+
+
+
+.welcome {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+
+}
+
+
+.brandname {
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thebest {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    position: relative;
+    bottom: 50px;
+    right: 40px;
+}
+
+.center {
+   margin-bottom: 200px;
+  
+    
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    bottom:  200px;
+}
+
+.learnmore button {
+    width: 200px;
+    height: 60px;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    padding: 10px;
+}
+
+.contactus button {
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    padding: 10px;
+}
+
+
+.learnmore button:hover {
+    background-color: white;
+    color: black;
+}
+
+.contactus button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.container {
+
+    position: absolute;
+    right: 0;
+    top: 160px;
+    font-size: 19px;
+
+
+}
+
+.setting {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+
+
+.car {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.container p {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container .setting:hover p {
+    display: block;
+}
+
+.container .car:hover p {
+    display: block;
+}
+
+#todown{
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+   
+}
+
+#todown i {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+.whoweare {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.whoweare .explain .x {
+    display: inline;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.bridimg img {
+    width: 600px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.explain {
+    margin-left: 100px;
+  line-height: 30px;
+    padding: 50px;
+}
+
+.whoweare .explain  i {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.ourlocation {
+    width: 100%;
+    
+    background-color: beige;
+}
+
+
+.ourlocation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.ourlocation img {
+    width: 600px;
+    height: 500px;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.location {
+    margin-left: 100px;
+    line-height: 25px;
+      padding: 50px;
+}
+
+
+.ourbaking {
+    text-align: center;
+    
+}
+
+.itemsfood {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.breads {
+    text-align: center;
+}
+
+.bagels {
+    text-align: center;
+}
+
+.Cookies {
+    text-align: center;
+    margin-right: 100px;
+}
+
+.itemsfood img {
+    width: 400px;
+}
+
+.itemsfood p {
+    width: 300px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.mab-concat {
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+    
+}
+
+
+.mab-concat .texts {
+    display: inline;
+    margin-left: 40px;
+    line-height: 40px;
+}
+
+
+.contact {
+    padding-left: 100px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.mab {
+    padding-right: 100px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+    border: 2px solid white;
+}
+.maintext {
+    line-height: 40px;
+}
+
+table {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.586);
+}
+
+table  th,td{
+   padding: 10px;
+   text-align: center;
+}
+
+table tbody i {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+table img {
+    width: 400px;
+    position: relative;
+    right: 200px;
+}
+
+.textimg {
+    position: relative;
+    right: 200px;
+}
+
+tfoot i {
+    font-size: 30px;
+    margin: 10px;
+    position: relative;
+    right: 200px;
+    cursor: pointer;
+}
+
+
+
+
+
+
